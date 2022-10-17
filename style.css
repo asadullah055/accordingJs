@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&family=Tiro+Bangla&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0ec55d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+.main {
+  border-radius: 10px;
+  background-color: #fff;
+  /* max-height: 300px; */
+  width: 450px;
+  padding: 15px;
+  overflow: hidden;
+}
+header {
+  padding: 15px;
+  /* min-height: 40px; */
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff4ea;
+
+  /* margin-bottom: 10px; */
+}
+.according-content {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fff4ea70;
+  overflow: hidden;
+}
+.description {
+  max-height: 0px;
+  padding: 0 10px;
+  transition: all 0.8s;
+}
+.active {
+  max-height: 300px;
+}
